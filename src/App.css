@@ -1,0 +1,93 @@
+.navbar{
+  display: flex;
+  max-width: 100%;
+  background-color: #1b80d2;
+  color: white;
+  padding: 0 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar a{
+  color: white;
+  text-decoration: none;
+}
+
+.navbar h1{
+  font-size: 24px;
+}
+
+.cart-btn{
+  position: relative;
+
+}
+.cart-len{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  bottom: 0px;
+  left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.products{
+  padding: 20px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+
+.product-card{
+  width: 200px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card img{
+  width: 200px;
+  height: 200px;
+}
+
+.cart{
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cart-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-item img{
+  width: 100px;
+  height: 100px;
+}
+
+.cart-item p{
+  text-align: left;
+  width: 25%;
+}
+
+.cart button{
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.cart > button{
+  width: 20%;
+  margin: 0 auto;
+}
